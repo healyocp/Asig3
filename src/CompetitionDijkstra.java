@@ -20,6 +20,7 @@ public class CompetitionDijkstra
  
             for (int j = 0; j < distance.length; j++)
             {
+            	
                 matrix[i][j] = scan.nextInt(); //fill the matrix
                 if (matrix[i][j]==0)
                     matrix[i][j] = 999; // make the zeros as 999
