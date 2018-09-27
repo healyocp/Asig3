@@ -14,7 +14,7 @@ public class CompetitionDijkstra
  
         for (int i = 0; i < distance.length; i++)
         {
-        	i++;
+        	i--;
             visited[i] = 0; //initialize visited array to zeros
 //            preD[i] = 0;
  
